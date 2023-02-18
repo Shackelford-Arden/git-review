@@ -2,12 +2,12 @@
   "$schema": "https://wails.io/schemas/config.v2.json",
   "name": "Git Review",
   "outputfilename": "git-review-tmp",
-  "frontend:install": "npm install",
-  "frontend:build": "npm run build",
-  "frontend:dev:watcher": "npm run dev",
+  "frontend:install": "yarn install",
+  "frontend:build": "yarn run build",
+  "frontend:dev:watcher": "yarn run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
     "name": "Arden Shackelford",
-    "email": "arden.shackelford@q2.com"
+    "email": "arden@ardens.tech"
   }
 }
